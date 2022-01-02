@@ -1,0 +1,39 @@
+.score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-container .score-value {
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: rgb(55, 53, 218);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.score-value h6 {
+    text-align: center;
+    color: white;
+}
+
+.score-value h1 {
+    text-align: center;
+    color: yellow;
+    font-size: 40pt;
+}
+
+.score-value-control-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+
+}

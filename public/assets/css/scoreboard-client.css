@@ -1,0 +1,118 @@
+body {
+    background-color: cornflowerblue;
+}
+
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 400px;
+    height: 200px;
+}
+
+.timer-box h1 {
+    color: red;
+    font-size: 70pt;
+}
+
+.score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 30px;
+}
+
+.score-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 400px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+}
+
+.main-score-box-away {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: aqua;
+    border: aqua;
+    border-radius: 2%;
+    /* background-color: rgb(255, 255, 255); */
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+}
+.main-score-box-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: aqua;
+    border: aqua;
+    border-radius: 2%;
+    /* background-color: rgb(255, 255, 255); */
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+}
+.main-score-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: aqua;
+    border: aqua;
+    border-radius: 2%;
+    /* background-color: rgb(255, 255, 255); */
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+}
+
+.main-score-box-home h1 {
+    color: rgb(255, 38, 38);
+    font-size: 70pt;
+}
+.main-score-box-away h1 {
+    color: rgb(38, 67, 255);
+    font-size: 70pt;
+}
+
+.score-box h1 {
+    color: yellow;
+    font-size: 70pt;
+}
+
+.score-box h6 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
