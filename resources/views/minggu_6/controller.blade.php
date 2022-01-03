@@ -209,16 +209,18 @@
                     <option value="Applause.mp3">Applause</option>
                 </select>
             </div>
-            <button id="play_audio_button" class="btn btn-linkedin mx-1 my-1">
-                <i class="fas fa-play-circle mr-2"></i>
+        </div>
+        <div class="form-group d-flex justify-content-center mt-5">
+            <button id="play_audio_button" class="btn btn-primary mx-1 my-1">
+                <i class="fas fa-play mr-2"></i>
                 PLAY
             </button>
             <button id="pause_audio_button" class="btn btn-warning mx-1 my-1">
-                <i class="fas fa-pause-circle mr-2"></i>
+                <i class="fas fa-pause mr-2"></i>
                 PAUSE
             </button>
-            <button id="stop_audio_button" class="btn btn-youtube mx-1 my-1">
-                <i class="fas fa-stop-circle mr-2"></i>
+            <button id="stop_audio_button" class="btn btn-danger mx-1 my-1">
+                <i class="fas fa-stop mr-2"></i>
                 STOP
             </button>
         </div>

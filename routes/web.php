@@ -75,7 +75,7 @@ Route::get('/findToko',[C_toko::class,'findToko'])->name('findToko');
 // Route::post('/customerImport', [C_pengguna::class, 'customerImport'])->name('customerImport');
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     $data = array(
-        'menu' =>'',
+        'menu' =>'home',
         'submenu' => '',
     );
     return view('dashboard',$data);

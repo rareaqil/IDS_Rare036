@@ -40,7 +40,7 @@
         <li class="nav-item ">
           @if($menu == 'home')
           <a href="/dashboard" class="nav-link active">
-            <i class="nav-icon fas fa-homet"></i>
+            <i class="nav-icon fas fa-home"></i>
             <p>
               Home
               <i class=""></i>
